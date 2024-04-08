@@ -1,0 +1,44 @@
+.Weather.weather-app-data {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Weather.weather-app-city {
+  margin: 0;
+  font-size: 38px;
+  line-height: 48px;
+}
+
+.Weather.weather-app-city-details {
+  font-size: 16px;
+  color: rgb(39, 33, 66, 0.4);
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.Weather.weather-app-city-details strong {
+  color: #f65282;
+}
+
+.Weather.weather-app-temperature-container {
+  display: flex;
+}
+
+.Weather.weather-icon {
+  width: 88px;
+  margin-right: -160px;
+  height: 88px;
+}
+
+.Weather.weather-app-temperature {
+  font-size: 88px;
+  margin-left: -120px;
+  line-height: 88px;
+  font-weight: bold;
+}
+
+.Weather.weather-app-unit {
+  margin-top: 20px;
+  margin-left: -145px;
+  font-size: 28px;
+}
